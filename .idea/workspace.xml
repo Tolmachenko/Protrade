@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f9552679-d85f-418b-95ac-199f35e9fb55" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="Protrade-team.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +34,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="295" column="35" selection-start="7216" selection-end="7216" vertical-scroll-proportion="0.5466667">
+                <state line="295" column="35" selection-start="7217" selection-end="7217" vertical-scroll-proportion="0.5466667">
                   <folding />
                 </state>
               </provider>
@@ -46,10 +47,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="268" column="0" selection-start="6656" selection-end="6656" vertical-scroll-proportion="0.34138972">
+                <state line="278" column="2" selection-start="6835" selection-end="6835" vertical-scroll-proportion="0.5981873">
                   <folding />
                 </state>
               </provider>
@@ -205,7 +206,11 @@
       <created>1354791827256</created>
       <updated>1354791827256</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dima ololo">
+      <created>1354791930789</created>
+      <updated>1354791930789</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -330,7 +335,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="295" column="35" selection-start="7216" selection-end="7216" vertical-scroll-proportion="0.5466667">
+        <state line="278" column="2" selection-start="6835" selection-end="6835" vertical-scroll-proportion="0.5981873">
           <folding />
         </state>
       </provider>
