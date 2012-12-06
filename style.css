@@ -15,251 +15,188 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
     background: transparent;
 }
-
 body {
     line-height: 1;
 }
-
 ol, ul {
     list-style: none;
 }
-
 blockquote, q {
     quotes: none;
 }
 
-:focus {
-    outline: 0;
-}
+:focus {outline: 0;}
 
-ins {
-    text-decoration: none;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse;
+    border-spacing: 0;}
 
 @font-face {
     font-family: 'Sansus';
     src: url('sansuswebissimo-regular-webfont.eot');
-    src: url('sansuswebissimo-regular-webfont.eot?#iefix') format('embedded-opentype'), url('sansuswebissimo-regular-webfont.woff') format('woff'), url('sansuswebissimo-regular-webfont.ttf') format('truetype');
+    src: url('sansuswebissimo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('sansuswebissimo-regular-webfont.woff') format('woff'),
+    url('sansuswebissimo-regular-webfont.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
+    font-style: normal;}
+
 
 @font-face {
     font-family: 'Mariad Pro';
     src: url('MyriadPro-Regular.eot');
-    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'), url('MyriadPro-Regular.woff') format('woff'), url('MyriadPro-Regular.ttf') format('truetype');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro-Regular.woff') format('woff'),
+    url('MyriadPro-Regular.ttf') format('truetype');
     font-weight: normal;
-    font-style: normal;
-}
-
+    font-style: normal;}
 /*------------------------ШАБЛОН---------------------------*/
-HTML {
-    background: url(img/BG.jpg) no-repeat center top #000;
+HTML  {
+    background:url( img/BG.jpg ) no-repeat center top #000;
 }
-
-#box {
+#box  {
     width: 1239px;
-    margin: auto
+    margin:auto
 }
-
 /*------------------Шапка----------------------*/
 #header {
-    height: 300px;
-    width: 1254px;
+    height:300px;
+    width:1254px;
 }
-
-.logo {
-    height: 120px;
+.logo  {
+    height:120px;
     width: 580px;
-    float: left;
+    float:left;
 }
-
-.logo a img {
+.logo a img{
     margin: 50px 0px 0px 10px;
-    border: none;
+    border:none;
 }
-
 .banner {
     width: 480px;
     height: 81px;
-    float: right;
-    margin-top: 31px;
-}
-
-.banner img {
+    float:right;
+    margin-top:31px;}
+.banner img  {
     border: none;
 }
 
-.menu {
-    height: 80px;
-    width: 1195px;
-    float: left;
-    margin: 27px 0px 0px 18px;
-    background: url("img/main.jpg");
-}
 
-.menu ul {
-    list-style: none;
+
+.menu                  {height:80px;
+    width:1195px;
+    float:left;
+    margin:27px 0px 0px 18px;
+    background: url("img/main.jpg");}
+.menu ul              {list-style:none;
     text-align: center;
-    margin-top: 14px;
-    height: 38px;
+    margin-top:14px;
+    height:38px;}
+.menu ul li           {display:inline-block;}
+.menu ul li+li         {background: url(img/to4ka.png) no-repeat left ;
 }
+.menu ul li div a     {color:#ffffff;
+    text-decoration:none;
+    font:22px Mariad Pro;
+    margin: 0px 5px 0px 5px;
+;}
+.menu ul li div       {padding:5px 0px 0px 10px;
+    height:31px;
 
-.menu ul li {
-    display: inline-block;
-}
+    margin:2px 10px 0px 10px;}
 
-.menu ul li+li {
-    background: url(img/to4ka.png) no-repeat left;
-}
 
-.menu ul li div a {
-    color: #ffffff;
-    text-decoration: none;
-    font: 22px Mariad Pro;
-    margin: 0px 5px 0px 5px;;
-}
-
-.menu ul li div {
-    padding: 5px 10px 0px 15px;
-    height: 31px;
-}
-
-.thispage {
-    border-left: 1px solid #302427;
-    border-top: 1px solid #302427;
-    border-right: 1px solid #877877;
-    border-bottom: 1px solid #877877;
+.thispage             {border-left:1px solid #302427;
+    border-top:1px solid #302427;
+    border-right:1px solid #877877;
+    border-bottom:1px solid #877877;
     border-radius: 5px;
-    background: url("img/tenb.png");
-}
+    background: url("img/tenb.png");}
+
+
+
+
+
+
+
+
 
 /*-------------------главный блок---------------------------*/
-.box2 {
-    width: 1232px;
-    height: 1300px;
-    border: 3px solid #928c8c;
-    margin-top: 25px;
-    background-color: #f4f3f3;
-    position: absolute;
-}
+.box2                    {width:1232px;height: 1300px;
+    border:3px solid #928c8c;
+    margin-top:26px;
+    background-color:#f4f3f3;
+    position: absolute;}
 
 /*---------------левый сайд-бар-----------*/
-#LeftSB {
-    width: 233px;
-    height: 1300px;
-    border-right: 3px solid #928c8c;
-    position: relative;
-    float: left;
-}
+#LeftSB                  {width:233px;height:1300px;
+    border-right:3px solid #928c8c;
+    position:relative;
+    float: left;}
+.titlelsb               {height:30px;}
+.titlelsb img         {margin:-16px 0px 0px 48px;}
 
-.titlelsb {
-    height: 30px;
+.game                  {border-bottom:3px solid #928c8c;
+    padding-bottom:3px;}
+.game ul              {margin:2px 0px 10px 30px;}
+.game ul li            {list-style-image:url(img/game-sp.png) ;}
+.game ul li h2          {color:#203145;
+    font:18px Sansus;
+    text-decoration:none;
+    font-weight: normal;}
+.game ul li ul          {margin:1px 0px 1px 16px;
 }
+.game ul li ul li      {list-style-image:url(img/game-sp2.png);
+}
+.game ul li ul li a    {font:18px Mariad pro;
 
-.titlelsb img {
-    margin: -16px 0px 0px 48px;
-}
+    color:#5e7da2;
+    text-shadow:1px 1px 1px #d3d2d2;
+    text-decoration:none;}
+.game ul li ul li a:hover {
+    text-decoration: underline;;}
+.game img                {margin:5px 0px 4px -21px;}
+.g1 {height:101px; margin-top:-10px;}
+.g1 ul li {padding-bottom:1px ;}
+.g2 {height:108px;margin-top:-3px;}
+.g2 ul li {padding-bottom:1px ; }
+.g3 {height:170px;}
+.g4 ul li {padding-top:3px;}
 
-.game {
-    border-bottom: 3px solid #928c8c;
-    padding-bottom: 3px;
-}
-
-.game ul {
-    margin: 0px 0px 10px 30px;
-}
-
-.game ul li {
-    list-style-image: url(img/game-sp.png);
-}
-
-.game ul li h2 {
-    color: #203145;
-    font: 18px Sansus;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-.game ul li ul li {
-    list-style-image: url(img/game-sp2.png);
-}
-
-.game ul li ul li a {
-    font: 18px Mariad pro;
-    color: #5e7da2;
-    text-decoration: none;
-}
-
-.valutu {
-    font: 18px "Sansus";
-    color: #364454;
-}
-
-.kyrs {
-    margin: 8px 0px 8px 56px;
-}
-
-.val dt {
-    background: url(img/VAL1.png) no-repeat left center;
-    color: #283646;
-    padding-left: 25px;
-    margin: 0px 0px 5px 20px;
-}
-
-.val dd {
-    background: url(img/VAL2.png) no-repeat left center;
-    color: #283646;
-    margin: -27px 0px 5px 122px;
-    padding-left: 25px;
-}
+.valutu                  {font:18px "Sansus";
+    color:#364454;}
+.kyrs                    {margin:12px 0px 8px 57px;}
+.val dt                 {background:url(img/VAL1.png) no-repeat left center ;
+    color:#283646;
+    padding-left:25px;
+    margin:0px 0px 5px 23px;}
+.val dd                  {background:url(img/VAL2.png) no-repeat left center ;
+    color:#283646;
+    margin:-27px 0px 6px 125px ;
+    padding-left: 25px;}
 
 /*---------------правый сайтбар-----------*/
-#RightSB {
-    width: 233px;
-    height: 1300px;
-    float: right;
-    border-left: 3px solid #928c8c;
-    position: relative;
-}
-
-.kontakt {
-    margin-top: 198px;
-}
-
-.kontakt ul li {
-    list-style-image: url("img/game-sp.png");
-    list-style-position: inside;
-    margin: 7px 0px 0px 0px;
+#RightSB                  {width:233px;height: 1300px;
+    float:right;
+    border-left:3px solid #928c8c;
+    position:relative;}
+.kontakt                  {margin-top:193px;}
+.kontakt ul             {}
+.kontakt ul li          {list-style-image:url("img/game-sp.png");
+    list-style-position:inside;
+    margin-left:-2px;
     text-align: center;
-}
-
-.kontakt ul li a {
-    text-decoration: none;
-    font: 18px "Sansus";
-    color: #203145;
-}
-
-.kontakt ul li ul {
-    margin: 17px 0px 0px 17px
-}
-
-.kontakt ul li ul li {
-    list-style: none;
+    font:18px "Sansus";
+    color:#203145;}
+.kontakt ul li ul      {margin:20px 0px 8px 23px}
+.kontakt ul li ul li   {list-style: none;
     text-align: left;
-    font: 18px "Sansus";
-    color: #818181;
-}
-
+    font:18px "Sansus";
+    color:#818181;}
+.kon1 {height: 197px;background: url(img/game-slash.png) no-repeat bottom ;}
+.kon2 {height: 136px; background: url(img/game-slash.png) no-repeat bottom ;;}
+.kon3 { height: 184px;background: url(img/game-slash.png) no-repeat bottom ;;}
+.kon4 {height: 124px; background: url(img/game-slash.png) no-repeat bottom ;;}
 /*---------------------КОНТЕНТ--------------------*/
 #Content {
     position: relative;
@@ -356,3 +293,16 @@ HTML {
  {margin-left: -4px;}
 .panel li:last-child {background: url(img/kon.png)no-repeat right ; }
 /*Dima NOOBbbhjhjkh */
+.perevod                    {width:700px;
+    height:600px;
+    margin:29px 0px 0px 33px;
+    border:1px solid #6e849d;
+    border-radius:10px;
+    box-shadow: inset 0px 3px 3px #8093a8, 3px 3px 5px #7f848a, -1px -1px 1px #b4b9c0, -3px 0px 3px #a9aeb5;
+}
+.name1                       {float: left;
+    position: relative;
+    width:202px;
+    height:600px;
+    border-right:1px solid #b7b6b6;
+    box-shadow:inset -3px 0px 10px #ecebeb;
