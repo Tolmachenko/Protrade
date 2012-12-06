@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f9552679-d85f-418b-95ac-199f35e9fb55" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="Protrade-team.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +27,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="151" column="18" selection-start="7245" selection-end="7245" vertical-scroll-proportion="-11.923077">
               <folding />
             </state>
           </provider>
@@ -34,7 +36,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="357" column="16" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.7692308">
+            <state line="357" column="14" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.7692308">
               <folding />
             </state>
           </provider>
@@ -48,14 +50,15 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/perevod_pw.html" />
+        <option value="$PROJECT_DIR$/main.html" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
@@ -172,7 +175,11 @@
       <created>1354791119057</created>
       <updated>1354791119057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dima ololo">
+      <created>1354791125712</created>
+      <updated>1354791125712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,14 +276,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+        <state line="151" column="18" selection-start="7245" selection-end="7245" vertical-scroll-proportion="-11.923077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="357" column="16" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.7692308">
+        <state line="357" column="14" selection-start="6414" selection-end="6414" vertical-scroll-proportion="0.7692308">
           <folding />
         </state>
       </provider>
